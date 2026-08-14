@@ -91,4 +91,4 @@ Screenshots of the n8n workflow, AI output, successful execution, and Google She
 
 ### Google Sheets Results
 
-![Google Sheets Results](PASTE_IMAGE_URL_HERE)
+![Google Sheets Results](https://github.com/EBUBENWACHUKWU/ai-scrum-retrospective-assistant/blob/main/spreadsheet.png)
