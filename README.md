@@ -77,3 +77,18 @@ Sentiment analysis
 Screenshots
 
 Screenshots of the n8n workflow, AI output, successful execution, and Google Sheets results are included in this repository.
+
+
+## Screenshots
+
+### n8n Workflow
+
+![n8n Workflow](PASTE_IMAGE_URL_HERE)
+
+### AI Agent Output
+
+![AI Agent Output](PASTE_IMAGE_URL_HERE)
+
+### Google Sheets Results
+
+![Google Sheets Results](PASTE_IMAGE_URL_HERE)
