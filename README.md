@@ -83,7 +83,7 @@ Screenshots of the n8n workflow, AI output, successful execution, and Google She
 
 ### n8n Workflow
 
-![n8n Workflow](PASTE_IMAGE_URL_HERE)
+![n8n Workflow](https://github.com/EBUBENWACHUKWU/ai-scrum-retrospective-assistant/blob/main/Retrospective-%20assistant%20-workflow.png)
 
 ### AI Agent Output
 
