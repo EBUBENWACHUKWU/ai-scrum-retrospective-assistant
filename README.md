@@ -87,7 +87,7 @@ Screenshots of the n8n workflow, AI output, successful execution, and Google She
 
 ### AI Agent Output
 
-![AI Agent Output](PASTE_IMAGE_URL_HERE)
+![AI Agent Output](https://github.com/EBUBENWACHUKWU/ai-scrum-retrospective-assistant/blob/main/google-node-log.png)
 
 ### Google Sheets Results
 
