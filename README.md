@@ -1,94 +1,94 @@
 # AI Scrum Retrospective Assistant
 
-## Overview
+An AI-powered workflow built with **n8n** that helps analyze Scrum Sprint Retrospective feedback and convert it into structured, actionable insights.
 
-The AI Scrum Retrospective Assistant is an AI-powered automation built with n8n.
+The automation uses AI to identify important themes, categorize feedback, assign priorities, generate summaries, and suggest practical action items. The results are automatically stored in Google Sheets for easy tracking and review.
 
-It analyzes Sprint Retrospective feedback and automatically identifies important insights, including the category, main theme, priority, summary, and recommended action item.
+---
 
-The results are automatically stored in Google Sheets, making it easier to track retrospective insights and identify areas for continuous improvement.
+## 🚀 Features
 
-## Features
+- Analyzes Sprint Retrospective feedback using AI
+- Categorizes feedback into:
+  - What Went Well
+  - What Didn't Go Well
+  - Blocker
+  - Suggestion
+- Identifies the main theme
+- Assigns a priority:
+  - High
+  - Medium
+  - Low
+- Generates a clear summary
+- Suggests a practical action item
+- Uses structured JSON output
+- Automatically stores results in Google Sheets
 
-- AI-powered retrospective feedback analysis
-- Automatic categorization of feedback
-- Theme identification
-- Priority classification
-- Automatic summaries
-- Recommended action items
-- Structured AI output
-- Automatic storage in Google Sheets
+---
 
-## Workflow
+## 🛠️ Technologies Used
 
-Manual Trigger → Edit Fields → AI Agent → Google Sheets
+- **n8n** – Workflow automation
+- **OpenRouter** – AI model integration
+- **AI Agent** – Feedback analysis
+- **Structured Output Parser** – Ensures consistent output format
+- **Google Sheets** – Stores retrospective insights
+- **JSON** – Structured AI output
 
-The AI Agent uses:
+---
 
-- OpenRouter Chat Model
-- Structured Output Parser
+# ⚙️ How the Workflow Works
 
-## AI Output
+The workflow follows these steps:
 
-The workflow generates:
+1. Sprint Retrospective feedback is provided as input.
+2. The AI Agent analyzes the feedback.
+3. The Structured Output Parser formats the AI response.
+4. The workflow identifies:
+   - Category
+   - Theme
+   - Priority
+   - Summary
+   - Action Item
+5. The structured results are automatically sent to Google Sheets.
 
-- Category
-- Theme
-- Priority
-- Summary
-- Action Item
+---
 
-Example:
+# 📊 Example Input
 
-```json
+```text
+The team experienced delays during the Sprint because some requirements were unclear. The Daily Scrums were helpful, but we discovered blockers too late. We should improve backlog refinement before the next Sprint.
+
+
+🤖 Example AI Output
 {
-  "category": "what_didnt_go_well",
-  "theme": "Unclear Requirements",
+  "category": "suggestion",
+  "theme": "Backlog Refinement and Early Blocker Identification",
   "priority": "high",
-  "summary": "The Sprint experienced delays because some requirements were unclear.",
-  "action_item": "Improve backlog refinement before the next Sprint."
+  "summary": "The team experienced delays due to unclear requirements and late identification of blockers. Daily Scrums were helpful, and the team suggested improving backlog refinement.",
+  "action_item": "Improve backlog refinement before the next Sprint and discuss potential blockers earlier."
 }
+📸 Project Screenshots
+n8n Workflow
 
+AI Analysis Output
 
-Technologies Used
-n8n
-OpenRouter
-AI Agent
-Structured Output Parser
-Google Sheets
-Google OAuth 2.0
-Use Case
+Google Sheets Results
 
-This automation helps Scrum Masters and Scrum Teams process Sprint Retrospective feedback more efficiently.
+🎯 Scrum Value
 
-Instead of manually reviewing and organizing feedback, the workflow uses AI to identify themes, classify priorities, and generate actionable improvement suggestions.
+This project demonstrates how AI automation can support a Scrum Team by helping organize and analyze retrospective feedback.
 
-Future Improvements
+It can help a Scrum Master identify recurring themes, surface important blockers, and turn retrospective discussions into actionable improvement ideas.
 
-Possible future improvements include:
+The automation is designed to support the Scrum Team's inspection and adaptation process by making retrospective insights easier to capture and review.
 
-Accepting feedback through a form
-Processing multiple retrospective responses automatically
-Slack integration
-Email notifications
-Automatic Sprint reports
-Dashboard for retrospective trends
-Sentiment analysis
-Screenshots
+👨‍💻 Author
 
-Screenshots of the n8n workflow, AI output, successful execution, and Google Sheets results are included in this repository.
+Ebube Allen Nwachukwu
 
+Professional Scrum Master I (PSM I)
+Front-End Developer
+AI Automation Enthusiast
 
-## Screenshots
-
-### n8n Workflow
-
-![n8n Workflow](https://github.com/EBUBENWACHUKWU/ai-scrum-retrospective-assistant/blob/main/Retrospective-%20assistant%20-workflow.png)
-
-### AI Agent Output
-
-![AI Agent Output](https://github.com/EBUBENWACHUKWU/ai-scrum-retrospective-assistant/blob/main/google-node-log.png)
-
-### Google Sheets Results
-
-![Google Sheets Results](https://github.com/EBUBENWACHUKWU/ai-scrum-retrospective-assistant/blob/main/spreadsheet.png)
+GitHub: https://github.com/EBUBENWACHUKWU
